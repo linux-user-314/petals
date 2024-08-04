@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="A Free Text Editor with Endless Customizability options! Found any bugs? Wanna suggest new features? You can do that! Get Petals now! "
+        />
+        <title>Petals : Free & Open Source Text Editor</title>
+        <link rel="stylesheet" href="/src/website-styles.css" />
+        <!-- the javascript for index.html is this -->
+        <script defer src="/src/website-script.js"></script>
+        <script
+            src="https://kit.fontawesome.com/fdbd9973ae.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav_div">
+                    <div class="logo_div">
+                        <a href="/index.html" draggable="false">
+                            <img
+                            src="./assets/public/SVGs/logo.svg"
+                            alt="logo-of-petals"
+                            class="logo"
+                            draggable="false"
+                        /></a>
+                    </div>
+                    <div class="links_div">
+                        <a href="/jar-files/test.java" download="test.java" draggable="false"
+                            ><button class="download">Download</button></a
+                        >
+                        <a href="https://github.com/linux-user-314/petals" target="_blank" class="nav_links" draggable="false"
+                            >Contribute</a
+                        >
+                        <a href="/src/html/docs.html" class="nav_links" target="_blank" draggable="false">Docs</a>
+                        <a href="/src/html/about.html" target="_blank" class="nav_links" draggable="false"
+                            >About</a
+                        >
+                        <a
+                            href="/src/html/credits.html"
+                            class="nav_links"
+                            target="_blank"
+                            draggable="false"
+                            id="credits"
+                            >Credits</a
+                        >
+                        <i draggable="false" class="fa-solid fa-bars fa-xl" id="bars"></i>
+                    </div>
+                </div>
+            </nav>
+            <!-- Initially set to be hidden, only visible on hover -->
+            <div class="menu-parent">
+                <a draggable="false" href="/jar-files/test.java" download="test.java" target="_blank"><h2 class="menu">Download</h2></a>
+                <a draggable="false" href="https://github.com/linux-user-314/petals" target="_blank"><h2 class="menu">Contribute</h2></a>
+                <a draggable="false" href="/src/html/docs.html" target="_blank"><h2 class="menu">Docs</h2></a>
+                <a draggable="false" href="/src/html/about.html" target="_blank"><h2 class="menu">About Us</h2></a>
+                <a draggable="false" href="/src/html/credits.html" target="_blank"><h2 class="menu">Credits</h2></a>
+            </div>
+        </header>
+        <!-- Make sure draggable is set to false in EVERYTHING -->
+        <main draggable="false">
+            <div class="main_one" draggable="false">
+                <p class="hey_there" draggable="false">
+                    Hey, there! <br />
+                    How would you like to use Petals?
+                </p>
+                    <div class="download_div">
+                    <a href="/src/petals-text-editor/petals-test-editor.html" target="_blank" draggable="false">
+                        <button class="browser" draggable="false">Open in Browser<i class="fa-brands fa-react fa-xl" style="color: #74C0FC;"></i></button>
+                    </a>
+                    <a href="/jar-files/test.java" download="test.java" draggable="false">
+                        <button class="jar">Download jar <i class="fa-brands fa-java fa-xl" style="color: #ff7b46;"></i></button>
+                    </a draggable="false">
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
